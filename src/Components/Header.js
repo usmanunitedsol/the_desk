@@ -1,43 +1,54 @@
 import React from 'react'
-
+import logo from '../Assets/images/Logo.png'
+import home from '../home.css'
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <div className="container-fluid">
-      <a className="navbar-brand" href="#"><img></img></a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarScroll">
-        <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
-          <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
-          </li>
-          <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Link
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a className="dropdown-item" href="#">Action</a></li>
-              <li><a className="dropdown-item" href="#">Another action</a></li>
-              <li><hr className="dropdown-divider"/></li>
-              <li><a className="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
-          </li>
-        </ul>
-        <form className="d-flex">
-          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button className="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+    <div className='header_section my-4' id='header_number'>
+
+   <div className='container-fluid header_section_content'>
+
+         <div className='row'>
+             <div className='col-sm-12 col-md-4'>
+             <a className="navbar-brand" href="#">  <img src={logo} className="img-fluid logo_header" alt="brand" /></a>
+             </div>
+
+             <div className='col-sm-12 col-md-8 d-flex justify-content-end'>
+             <button type="button" className="btn btn-link header_sec_number ">051 844 2556</button>
+             <button type="button" className="btn btn-outline-light header_sec_register mx-3">Register Startup</button>
+             <button type="button" className="btn btn-lg btn-primary mx-2 header_book_seat" >Book A Seat</button>
+           
+             </div>
+
+         </div>
+   </div>
+
+   <hr class="solid navborder"/>
+
+   <div className='header_section_navbar'>
+
+                        <nav className="navbar navbar-expand-lg navbar-light">
+                        <div className="container-fluid">
+                           
+                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                            </button>
+                            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div className="navbar-nav">
+                                <a className="nav-link" aria-current="page" href="#">Workspace</a>
+                                <a className="nav-link" href="#">Company</a>
+                                <a className="nav-link" href="#">Packages</a>
+                                <a className="nav-link" href="#">Photo Gallery</a>
+                                <a className="nav-link" href="#">Our Blog</a>
+                                <a className="nav-link" href="#">Contact us</a>
+                            </div>
+                            </div>
+                        </div>
+                        </nav>
+
+   </div>
+
+   
+  </div>
   )
 }
 

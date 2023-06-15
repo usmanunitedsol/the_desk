@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+:root {
+    --green: #399C90;
+    --white: #ffffff;
+  }
+
+body{
+    background-color: #09342F;
+}
+
+
+
+                                                                                 /* header styling */
+
+                                                                                 
+.logo_header{
+    width: 55%;
+}
+
+
+.header_sec_number{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+   
+}
+
+.header_sec_number::before{
+ 
+    content:url('Assets/images/Icon.png');
+    padding-top: 7px;
+    padding-right: 5px;
+   
+}
+
+
+.header_sec_register{
+   height: 40px;
+   width: 176px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+   font-weight: 300;
+     border-radius: 5px;
+     
+}
+
+
+.header_sec_register::before{
+ 
+    content:url('Assets/images/register icon.png');
+    padding-top: 7px;
+    padding-right: 5px;
+   
+}
+
+
+.header_book_seat{
+    background-color: var(--green);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.header_book_seat::before{
+ 
+    content:url('Assets/images/Seat icon.png');
+    padding-top: 7px;
+    padding-right: 5px;
+   
+}
+
+.header_section{
+    margin: 0px 110px;
+}
+
+
+                                                                     /* Navbar Styling */
+.header_section_navbar .navbar .nav-link{
+
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0px 0px;
+    padding-right: 50px;
+}                                                                     
+
+
+.navborder{
+
+    margin: 1rem 15px;
+    color: var(--green);
+}
+
