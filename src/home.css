@@ -105,7 +105,48 @@ body{
 
 .navborder{
 
-    margin: 1rem 15px;
+    margin: 0rem 15px;
     color: var(--green);
 }
 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255 255 255 / 70%);
+    text-decoration: overline;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.1rem;
+    padding-bottom: 0.5rem;
+}
+
+.btn-link:hover {
+    color: #ffffff;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.btn-check:active+.btn-outline-light, .btn-check:checked+.btn-outline-light, .btn-outline-light.active, .btn-outline-light.dropdown-toggle.show, .btn-outline-light:active {
+    color: white;
+    background-color: var(--green);
+    border:none;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: var(--green);
+    border: none;
+}
+
+.btn-outline-light:hover {
+    color: white;
+    background-color: var(--green);
+    border:none;
+}

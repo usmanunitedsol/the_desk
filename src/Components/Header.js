@@ -7,12 +7,12 @@ const Header = () => {
 
    <div className='container-fluid header_section_content'>
 
-         <div className='row'>
-             <div className='col-sm-12 col-md-4'>
+         <div className='row my-2'>
+             <div className='col-sm-12 col-md-4 d-flex  align-items-center'>
              <a className="navbar-brand" href="#">  <img src={logo} className="img-fluid logo_header" alt="brand" /></a>
              </div>
 
-             <div className='col-sm-12 col-md-8 d-flex justify-content-end'>
+             <div className='col-sm-12 col-md-8 d-flex justify-content-end align-items-center'>
              <button type="button" className="btn btn-link header_sec_number ">051 844 2556</button>
              <button type="button" className="btn btn-outline-light header_sec_register mx-3">Register Startup</button>
              <button type="button" className="btn btn-lg btn-primary mx-2 header_book_seat" >Book A Seat</button>
@@ -22,9 +22,10 @@ const Header = () => {
          </div>
    </div>
 
-   <hr class="solid navborder"/>
+ 
 
    <div className='header_section_navbar'>
+   <hr class="solid navborder"/>
 
                         <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="container-fluid">
