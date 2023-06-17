@@ -8,12 +8,14 @@ const Header = () => {
    <div className='container-fluid header_section_content'>
 
          <div className='row my-2'>
-             <div className='col-sm-12 col-md-4 d-flex  align-items-center'>
+             <div className='col-sm-12 col-md-2 d-flex logo_row align-items-center'>
              <a className="navbar-brand" href="#">  <img src={logo} className="img-fluid logo_header" alt="brand" /></a>
+             <button type="button" className="btn btn-link header_sec_number d-flex d-md-none  ">051 844 2556</button>
              </div>
 
-             <div className='col-sm-12 col-md-8 d-flex justify-content-end align-items-center'>
-             <button type="button" className="btn btn-link header_sec_number ">051 844 2556</button>
+             <div className='col-sm-12 col-md-10 d-flex justify-content-end align-items-center logo_center'>
+             <button type="button" className="btn btn-link header_sec_number d-none d-md-flex ">051 844 2556</button>
+         
              <button type="button" className="btn btn-outline-light header_sec_register mx-3">Register Startup</button>
              <button type="button" className="btn btn-lg btn-primary mx-2 header_book_seat" >Book A Seat</button>
            
@@ -41,6 +43,7 @@ const Header = () => {
                                 <a className="nav-link" href="#">Photo Gallery</a>
                                 <a className="nav-link" href="#">Our Blog</a>
                                 <a className="nav-link" href="#">Contact us</a>
+                       
                             </div>
                             </div>
                         </div>
