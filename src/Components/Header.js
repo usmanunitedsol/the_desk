@@ -1,9 +1,24 @@
-import React from 'react'
+import React,{useState} from 'react'
 import logo from '../Assets/images/Logo.png'
 import home from '../home.css'
 const Header = () => {
+
+
+  const [navColour, updateNavbar] = useState(false);
+  function scrollHandler() {
+    if (window.scrollY >= 20) {
+      updateNavbar(true);
+    } else {
+      updateNavbar(false);
+    }
+  }
+  
   return (
-    <div className='header_section my-4' id='header_number'>
+
+    <div className='content_size'>
+    <div className='header_section my-4 fixed-top' id='header_number'>
+
+   
 
    <div className='container-fluid header_section_content'>
 
@@ -51,7 +66,7 @@ const Header = () => {
 
    </div>
 
-   
+   </div>
   </div>
   )
 }

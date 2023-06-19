@@ -10,9 +10,13 @@
     --white: #ffffff;
   }
 
-body{
-    background-color: #09342F;
-}
+
+  .content_size{
+    width: 1700px;
+    margin: auto;
+    max-width: 100%
+  }
+
 
 
 
@@ -20,6 +24,22 @@ body{
 
                                                                                  
 
+                                                                                 
+
+/* .sticky{
+    background-color: #1b1a2ea9 !important;
+    transition: all 0.3s ease-out 0s !important;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    backdrop-filter: blur(15px) !important;
+}
+
+
+.header_section {
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+    padding: 0.3rem 2rem !important;
+    font-size: 1.2rem !important;
+  } */
 
 .header_sec_number{
     color: white;
@@ -85,7 +105,9 @@ body{
 }
 
 .header_section{
-    margin: 0px 110px;
+ 
+    padding: 0px 110px;
+   
 }
 
 
@@ -217,6 +239,8 @@ body{
  {
     .header_section {
         margin: 0px 0px;
+        
+        
     }
 
   
@@ -278,7 +302,7 @@ body{
  
  {
     .header_section {
-        margin: 0px 0px;
+        padding: 0px 0px;
     }
 
    
@@ -341,3 +365,118 @@ body{
         margin-left: 0rem!important;
     }
  }
+
+
+
+
+                                                                 /* Footer styling */
+.footer_web{
+background-color: #1E3954;
+
+
+}
+
+.footer_req{
+    height: 40px;
+    width: 181px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 200;
+    border-radius: 5px;
+    border: none;
+    background-color: #0C2945;
+}
+
+.footer_location::before{
+    content:url('Assets/images/location.png');
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+.text_styling a{
+    text-decoration: none;
+}
+
+.footer_section p{
+    font-size: 15px;
+}
+
+
+
+/* banner styling */
+
+.home_page_banner{
+  background-image: url('../src/Assets/images/Banner Image.png');
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  padding: 300px 0px;
+
+}
+
+
+.book_a_tour{
+    background-color: var(--white);
+    color: black;
+    border: none;
+}
+
+.tech_incub{
+    color: white;
+    background-color: var(--green);
+    border: none;
+}
+
+
+@media only screen and  (max-width: 768px)
+ 
+ 
+ { 
+    .home_page_banner  p, .home_page_banner  a{
+        font-size: 12px;
+    } 
+  
+
+}
+
+
+.home_page_join-section{
+    padding: 100px 200px;
+}
+
+.join_us_home{
+    background-color: var(--green);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: auto;
+}
+
+
+.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--green);
+    border:none;
+}
+
+@media only screen and ( (max-width: 768px))
+ 
+ 
+ {
+
+    .home_page_join-section{
+        padding: 40px 20px;
+    }
+
+ }
+ 
