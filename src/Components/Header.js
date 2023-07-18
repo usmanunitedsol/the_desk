@@ -6,17 +6,19 @@ const Header = () => {
 
   const [navColour, updateNavbar] = useState(false);
   function scrollHandler() {
-    if (window.scrollY >= 20) {
+    if (window.scrollY >= 300) {
       updateNavbar(true);
     } else {
       updateNavbar(false);
     }
   }
+
+  window.addEventListener("scroll",scrollHandler)
   
   return (
 
     <div className='content_size'>
-    <div className='header_section my-4 fixed-top' id='header_number'>
+    <div   className={navColour ? "header_section2 py-4 fixed-top" :"header_section py-4 fixed-top"} id='header_number'>
 
    
 
