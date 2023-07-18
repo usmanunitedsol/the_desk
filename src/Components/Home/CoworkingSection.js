@@ -4,7 +4,7 @@ const CoworkingSection = () => {
   return (
     <section
       id="coworkingsection"
-      className="container-fluid coworkingsection  text-center"
+      className="container content_size coworkingsection  text-center"
     >
       <div className="row coworkingsectionrow d-flex align-items-center justify-content-center">
         <h2>Shared CoWorking Office</h2>
