@@ -23,13 +23,6 @@
                                                                                  /* header styling */
 
                                                                                  
-
-                                                                                 
-
-
-
-  
-  
   
 
 .header_sec_number{
@@ -220,11 +213,11 @@
     }
 
     .header_section {
-        margin: 0px 70px;
+        margin: 0px 0px;
     }
 
     .header_section2 {
-        margin: 0px 70px;
+        margin: 0px 0px;
     }
 
     .navbar-brand {
@@ -371,6 +364,12 @@
         margin-right: 0rem!important;
         margin-left: 0rem!important;
     }
+
+
+   
+
+   
+    
  }
 
 
@@ -483,7 +482,64 @@ background-color: #1E3954;
 
     .home_page_join-section{
         padding: 40px 20px;
+       
+
     }
 
  }
  
+
+
+                                                         /* home coworkingsection section */
+
+.coworkingsection{
+    padding: 100px 200px;
+    background: url('../src/Assets/images/BG.png');
+    background-repeat: no-repeat;
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}                                                         
+
+
+.coworkingsectionbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 35px 10px 10px;
+    padding: 50px 50px;
+    background-color: #FFFFFF;
+    /* margin-top: 60px; */
+    margin: 10px 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px)  {
+    
+.coworkingsection{
+    padding: 50px 40px;
+    background: url('../src/Assets/images/BG.png');
+    background-repeat: no-repeat;
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}   
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .coworkingsection {
+        padding: 58px 50px;
+        background: url(http://localhost:3000/static/media/BG.4375523….png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

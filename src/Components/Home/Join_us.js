@@ -6,7 +6,7 @@ import parking from "../../Assets/images/parking-lot.png"
 const Join_us = () => {
   return (
     <div>
-              <section id="join-section" className="home_page_join-section  text-center" >
+       <section id="join-section" className="home_page_join-section  text-center" >
         <div className="container content_size">
           <div className="row d-flex align-items-center justify-content-center">
            <h2 >
