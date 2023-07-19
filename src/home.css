@@ -586,3 +586,139 @@ background-color: #1E3954;
     border: 2px solid #1E3954;
     color: black;
 }
+
+
+.textGreen{
+    color: var(--green);
+}
+
+.BenefitsDesksection {
+    background-color: #1E3954;
+    /* padding-top: 300px; */
+    padding-bottom: 100px;
+    margin-top:338px;
+}
+.BenefitsDeskcol3 p ,
+ .BenefitsDeskcol2 p {
+    color: white;
+}
+.BenefitsDeskcol1{
+    text-align: start;
+}
+
+
+.ScheduleMyTour{
+    background-color: var(--green);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.videoimg{
+    margin-top: -300px;
+    margin-bottom: 70px;
+    padding: 0px 185px;
+}
+
+.BenefitsDeskcol1 {
+    margin-top: -78px;
+}
+
+.TrustedCompaniessection{
+    padding: 80px 0px;
+}
+
+
+
+@media only screen and (min-width: 768px ) and  ( max-width:990px)  {
+    .BenefitsDeskcol1 {
+        margin-top: -65px;
+    }
+    .benefitsh1{
+        font-size: 16px !important;
+    }
+
+    .BenefitsDesksection p{
+        font-size: 14px;
+    }
+
+    .videoimg {
+        margin-top: -100px;
+        margin-bottom: 70px;
+        padding: 0px 185px;
+    }
+   
+ }   
+ 
+ 
+ @media only screen and (min-width: 600px) and (max-width: 768px)
+ 
+ 
+ {
+    .BenefitsDeskcol1 {
+        margin-top: 0px;
+    }
+
+    .benefitsh1{
+        font-size: 16px !important;
+    }
+    .videoimg {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        padding: 0px 0px; 
+    }
+    .BenefitsDesksection {
+        background-color: #1E3954;
+        /* padding-top: 300px; */
+        padding-bottom: 100px;
+        padding-top: 100px;
+        margin-top: 0px;
+    }
+
+    .BenefitsDesksection p{
+        font-size: 11px;
+    }
+ }
+
+
+ @media only screen and (max-width: 600px)  
+ 
+ {
+    
+    .benefitsh1{
+        font-size: 16px !important;
+    }
+    .BenefitsDeskcol1 {
+        margin-top: 0px;
+    }
+
+    .videoimg {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        padding: 0px 0px; 
+    }
+    .BenefitsDesksection {
+        background-color: #1E3954;
+        /* padding-top: 300px; */
+        padding-bottom: 100px;
+        padding-top: 100px;
+        margin-top: 0px;
+    }
+    .BenefitsDesksection p{
+        font-size: 14px;
+    }
+    
+ }
+
+   
+
+   
+    
+
