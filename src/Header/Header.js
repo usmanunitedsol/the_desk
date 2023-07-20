@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import logo from '../Assets/images/Logo.png'
+// import "./header.scss"
 import home from '../home.css'
 const Header = () => {
 
@@ -17,12 +18,12 @@ const Header = () => {
   
   return (
 
-    <div className='content_size'>
+    <header className='content_size'>
     <div   className={navColour ? "header_section2 py-4 fixed-top" :"header_section py-4 fixed-top"} id='header_number'>
 
    
 
-   <div className='container-fluid header_section_content'>
+   <div className='container header_section_content'>
 
          <div className='row my-2'>
              <div className='col-sm-12 col-md-2 d-flex logo_row align-items-center'>
@@ -43,7 +44,7 @@ const Header = () => {
 
  
 
-   <div className='header_section_navbar'>
+   <div className='header_section_navbar container'>
    <hr class="solid navborder"/>
 
                         <nav className="navbar navbar-expand-lg navbar-light">
@@ -69,7 +70,7 @@ const Header = () => {
    </div>
 
    </div>
-  </div>
+  </header>
   )
 }
 

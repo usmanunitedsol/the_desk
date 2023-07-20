@@ -46,7 +46,7 @@ const Slider = () => {
       <SwiperSlide><img src={aven1} alt='company'/></SwiperSlide>
 
  
-    </Swiper>
+      </Swiper>
     </div>
   )
 }

@@ -1,0 +1,26 @@
+.content_size{
+    width: 1700px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.btn{
+    width: 100%;
+    max-width: 13.2rem;
+    padding: 1rem 2rem;
+    background:var(--secondary-color);
+    color: var(--white);
+    &--white-button{
+        background:var(--white) ;
+        color: black;
+    }
+   
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 6.25rem 0;
+}

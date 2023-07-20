@@ -12,9 +12,14 @@
 
 
   .content_size{
-    width: 1700px;
+    /* width: 1700px;
     margin: auto;
-    max-width: 100%
+    max-width: 100% */
+
+
+    width: 100%;
+    margin: auto;
+    max-width: 1700px;
   }
 
 
@@ -118,7 +123,7 @@
 
 .navborder{
 
-    margin: 0rem 15px;
+    margin: 0rem 0px;
     color: var(--green);
 }
 
